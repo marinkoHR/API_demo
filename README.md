@@ -1,5 +1,5 @@
 # API_demo
-This is a simple automated API testing project written in Java.
+This is a simple project for automated API testing written in Java.
 I chose TestNG for a testing framework since it is a tool with which I have the most experience. 
 And Maven is used for dependency management. 
 
