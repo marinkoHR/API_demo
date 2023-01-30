@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite 1">
+
+    <listeners>
+        <listener class-name="OTHER.ReporterListener"/>
+    </listeners>
+
+    <test name="PrepareTestData" enabled="true">
+        <classes>
+            <class name="TESTS.PrepareTestData"/>
+        </classes>
+    </test>
+
+    <test name="TEST1_VerifyGetCars" enabled="true">
+        <classes>
+            <class name="TESTS.TEST1_VerifyGetCars"/>
+        </classes>
+    </test>
+    <test name="TEST2_VerifyPostCars" enabled="true">
+        <classes>
+            <class name="TESTS.TEST2_VerifyPostCars"/>
+        </classes>
+    </test>
+    <test name="TEST3_VerifyDeleteCars" enabled="true">
+        <classes>
+            <class name="TESTS.TEST3_VerifyDeleteCars"/>
+        </classes>
+    </test>
+    <test name="TEST4_VerifyUpdateCars" enabled="true">
+        <classes>
+            <class name="TESTS.TEST4_VerifyUpdateCars"/>
+        </classes>
+    </test>
+    <test name="TEST5_VerifyUpdateCarWithDriverData" enabled="true">
+        <classes>
+            <class name="TESTS.TEST5_VerifyUpdateCarWithDriverData"/>
+        </classes>
+    </test>
+
+</suite>
